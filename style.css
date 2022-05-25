@@ -12,7 +12,7 @@ header {
 .logo {
   width: 77px;
   height: 24px;
-  font-family: 'Roboto';
+  font-family: sans-serif, 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -32,29 +32,25 @@ header {
   flex-direction: column;
   height: 590px;
   width: 375px;
-  left: 0;
-  top: 92px;
   border-radius: 0;
-  padding: 120px, 24px, 120px, 24px;
   background: #1c1a19;
 }
 
-.primary-text {
-  padding-top: 100px;
-  font-family: Crete Round;
-  font-size: 56px;
+h2 {
+  font-family: sans-serif, 'Round';
+  font-size: 50px;
   font-weight: 400px;
   color: #ff6b00;
   height: 124px;
-  padding-top: 100px;
+  padding-top: 10px;
   padding-left: 20px;
   width: 327px;
 }
 
-.supporting-text {
+p {
   width: 359px;
   height: 27px;
-  font-family: 'Roboto';
+  font-family: sans-serif, 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -65,7 +61,7 @@ header {
 .description {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins';
+  font-family: sans-serif, 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
