@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# M Portfolio
+# My Portfolio
 >This project is to help master setting up in a more professional way and using additional tools e.g linters.
 
 
