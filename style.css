@@ -28,11 +28,6 @@ header {
 }
 
 .headline {
-  display: flex;
-  flex-direction: column;
-  height: 590px;
-  width: 375px;
-  border-radius: 0;
   background: #1c1a19;
 }
 
@@ -79,13 +74,6 @@ p {
   width: 200px;
   height: 40px;
 }
-
-.illustration {
-  position: absolute;
-  padding-left: 6cm;
-  padding-top: 5cm;
-}
-
 a {
   color: white;
   text-decoration: none;
