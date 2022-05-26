@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: https://github.com/ifzyy
 - Twitter: https://twitter.com/johnson32325986
-- LinkedIn: nkedin.com/in/johnson-emmanuel-907a79239/
+- LinkedIn: linkedin.com/in/johnson-emmanuel-907a79239/
 
 
 ## 🤝 Contributing
