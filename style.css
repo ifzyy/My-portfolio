@@ -99,6 +99,11 @@ a {
   grid-template-columns: 327px;
 }
 
+.recent-work-container {
+  height: 3755px;
+  background-color: #fff;
+}
+
 .projects {
   margin-left: 40px;
 }
@@ -240,4 +245,82 @@ button {
 
 button:hover {
   color: black;
+}
+
+/* about me section */
+.about-me-container {
+  height: 2000px;
+  margin-top: 3.5rem;
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/Frame.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-left: 16px;
+}
+
+.resume-button {
+  width: 161px;
+  height: 48px;
+  margin-left: 16px;
+}
+
+.vector-4 {
+  height: 1px;
+  border: 1px solid #fff;
+  margin-top: 4cm;
+  width: 279px;
+}
+
+.language {
+  display: flex;
+  align-items: baseline;
+  margin-top: 3cm;
+}
+
+.p-description {
+  width: 138px;
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.p-language {
+  margin-top: 3rem 0;
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  color: #fff;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  width: 114px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
 }
