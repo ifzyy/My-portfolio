@@ -43,15 +43,16 @@ header {
   background-position: 100% 130%;
 }
 
-h2 {
+.greeting {
   font-family: sans-serif, 'Round';
   font-size: 50px;
   font-weight: 400px;
   color: #ff6b00;
-  height: 124px;
   padding-top: 10px;
   padding-left: 20px;
   width: 327px;
+  margin-bottom: 0;
+  margin-top: 120px;
 }
 
 .introduction-text {
@@ -63,6 +64,7 @@ h2 {
   font-size: 24px;
   color: #fff5e1;
   padding-left: 20px;
+  margin-bottom: 0;
 }
 
 .description {
@@ -78,6 +80,10 @@ h2 {
 }
 
 ul {
+  list-style: none;
+}
+
+.links {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -160,6 +166,7 @@ h4 {
   display: flex;
   flex-direction: row;
   gap: 0.6rem;
+  padding: 0;
 }
 
 .box {
@@ -249,46 +256,50 @@ button:hover {
 
 /* about me section */
 .about-me-container {
-  height: 2000px;
-  margin-top: 3.5rem;
+  margin-top: 132px;
   background-color: #1c1a19;
-  display: flex;
-  flex-direction: column;
-  padding-left: 16px;
 }
 
 .about-me {
-  display: flex;
-  flex-direction: column;
   background-image: url(images/Frame.png);
   background-repeat: no-repeat;
-  background-position: bottom right;
-  padding-left: 16px;
+  background-position: 100% 90%;
+  padding-left: 24px;
+}
+
+.support-text {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+}
+
+.about-h {
+  font-family: 'crete Round', sans-serif;
+  font-size: 50px;
+  font-weight: 400px;
+  color: #ff6b00;
+  width: 327px;
+  height: 79px;
+  padding-top: 120px;
+  line-height: 88px;
+  margin: auto;
 }
 
 .resume-button {
   width: 161px;
   height: 48px;
-  margin-left: 16px;
 }
 
 .vector-4 {
-  height: 1px;
-  border: 1px solid #fff;
-  margin-top: 4cm;
-  width: 279px;
-}
-
-.language {
-  display: flex;
-  align-items: baseline;
-  margin-top: 3cm;
+  margin-top: 221px;
+  width: 327px;
 }
 
 .p-description {
-  width: 138px;
+  padding-top: 20px;
   width: 327px;
   height: 148px;
+  margin-bottom: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -297,9 +308,13 @@ button:hover {
   color: #f4f5f7;
 }
 
+.language {
+  display: flex;
+  align-items: baseline;
+}
+
 .p-language {
-  margin-top: 3rem 0;
-  width: 164px;
+  width: 257px;
   height: 24px;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
@@ -308,19 +323,41 @@ button:hover {
   line-height: 44px;
   align-items: center;
   color: #fff;
+  padding: 20px;
 }
 
 .language-list {
-  display: flex;
   flex-direction: column;
-  width: 114px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 43px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.knowledge {
+  width: 164px;
+}
+
+.framework {
+  width: 227px;
+}
+
+.skills {
+  width: 115px;
+}
+
+.frame {
+  padding: 18px;
+}
+
+.big-container {
+  margin-top: 3cm;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
-  margin-bottom: 10px;
 }
