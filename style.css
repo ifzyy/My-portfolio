@@ -407,3 +407,43 @@ button:hover {
   padding-left: 24px;
   width: 295px;
 }
+
+.name {
+  margin-top: 73px;
+}
+
+.msg {
+  width: 327px;
+  height: 114px;
+  background-color: #FBF8F7;;
+}
+
+.form-button {
+  width: 131px;
+  margin-top: 24px;
+  background-color: #fc6703;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.7rem;
+  margin-left: 122px;
+  margin-right: 122px;
+}
+
+.bottom-line {
+  margin-top: 124px;
+}
+
+.bottom-link {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  justify-content: center;
+  color: #505F79;
+  width: 327px;
+  height: 40px;
+  list-style: none;
+}
+
