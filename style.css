@@ -1,7 +1,8 @@
 body {
-  max-width: 100%;
+  width: 100%;
   margin: 0;
 }
+
 
 header {
   background-color: #3c3a39;
@@ -41,6 +42,7 @@ header {
   background-image: url(images/illustration.png);
   background-repeat: no-repeat;
   background-position: 100% 130%;
+  padding: 0 1.2rem 6rem 1.2rem;
 }
 
 .greeting {
@@ -103,6 +105,7 @@ a {
 .container {
   display: grid;
   grid-template-columns: 327px;
+  padding: 0;
 }
 
 .recent-work-container {
@@ -189,6 +192,7 @@ h4 {
   letter-spacing: 0.03em;
   color: #fff;
   width: 124px;
+  height: 50px;
   background: #ff6b00;
   border: none;
 }
@@ -239,7 +243,7 @@ h4 {
   background: rgba(255, 255, 255, 0.3);
 }
 
-button {
+.project-button {
   background-color: #fc6703;
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -288,6 +292,15 @@ button:hover {
 .resume-button {
   width: 161px;
   height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #ff6b00;
+  border: none;
+
 }
 
 .vector-4 {
@@ -361,3 +374,7 @@ button:hover {
   align-items: center;
   text-align: center;
 }
+
+/* contact me section */
+
+
