@@ -1,5 +1,5 @@
 body {
-  max-width: 100%;
+  width: 100%;
   margin: 0;
 }
 
@@ -20,7 +20,7 @@ header {
   width: 77px;
   height: 24px;
   display: flex;
-  font-family: sans-serif, 'Roboto';
+  font-family: sans-serif, "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -41,10 +41,11 @@ header {
   background-image: url(images/illustration.png);
   background-repeat: no-repeat;
   background-position: 100% 130%;
+  padding: 0 1.2rem 6rem 1.2rem;
 }
 
 .greeting {
-  font-family: sans-serif, 'Round';
+  font-family: sans-serif, "Round";
   font-size: 50px;
   font-weight: 400px;
   color: #ff6b00;
@@ -58,7 +59,7 @@ header {
 .introduction-text {
   width: 359px;
   height: 27px;
-  font-family: sans-serif, 'Roboto';
+  font-family: sans-serif, "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -70,7 +71,7 @@ header {
 .description {
   width: 327px;
   height: 123px;
-  font-family: sans-serif, 'Poppins';
+  font-family: sans-serif, "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -103,6 +104,7 @@ a {
 .container {
   display: grid;
   grid-template-columns: 327px;
+  padding: 0;
 }
 
 .recent-work-container {
@@ -121,7 +123,7 @@ a {
 
 .recent-text {
   height: 83px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
@@ -146,7 +148,7 @@ a {
 
 h4 {
   color: #091e42;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400px;
   font-size: 32px;
@@ -154,7 +156,7 @@ h4 {
 }
 
 .text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -174,7 +176,7 @@ h4 {
   align-items: center;
   justify-content: center;
   border: 1px solid #8993a4;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -182,13 +184,14 @@ h4 {
 }
 
 .recent-work-button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 0.03em;
   color: #fff;
   width: 124px;
+  height: 50px;
   background: #ff6b00;
   border: none;
 }
@@ -206,7 +209,7 @@ h4 {
 .stories-head {
   color: #fff;
   padding-left: 16px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -217,7 +220,7 @@ h4 {
   padding-left: 16px;
   width: 275px;
   height: 87px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -239,7 +242,7 @@ h4 {
   background: rgba(255, 255, 255, 0.3);
 }
 
-button {
+.project-button {
   background-color: #fc6703;
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -274,7 +277,7 @@ button:hover {
 }
 
 .about-h {
-  font-family: 'crete Round', sans-serif;
+  font-family: "crete Round", sans-serif;
   font-size: 50px;
   font-weight: 400px;
   color: #ff6b00;
@@ -288,6 +291,14 @@ button:hover {
 .resume-button {
   width: 161px;
   height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #ff6b00;
+  border: none;
 }
 
 .vector-4 {
@@ -300,7 +311,7 @@ button:hover {
   width: 327px;
   height: 148px;
   margin-bottom: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -316,7 +327,7 @@ button:hover {
 .p-language {
   width: 257px;
   height: 24px;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -328,7 +339,7 @@ button:hover {
 
 .language-list {
   flex-direction: column;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -360,4 +371,78 @@ button:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+/* contact me section */
+.contact-me-header-text {
+  width: 327px;
+  height: 216px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 120px;
+  margin-left: 24px;
+}
+
+.no-border {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid gray;
+  box-shadow: none;
+  padding: 14px;
+  width: 295px;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  padding: 0;
+  padding-left: 24px;
+  width: 295px;
+}
+
+.name {
+  margin-top: 73px;
+}
+
+.msg {
+  width: 327px;
+  height: 114px;
+  background-color: #fbf8f7;
+}
+
+.form-button {
+  width: 131px;
+  margin-top: 24px;
+  background-color: #fc6703;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.7rem;
+  margin-left: 122px;
+  margin-right: 122px;
+}
+
+.bottom-line {
+  margin-top: 124px;
+}
+
+.bottom-link {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  justify-content: center;
+  color: #505f79;
+  width: 327px;
+  height: 40px;
+  list-style: none;
 }
