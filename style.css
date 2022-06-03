@@ -275,10 +275,6 @@ h4 {
   width: 327px;
 }
 
-button:hover {
-  color: black;
-}
-
 /* about me section */
 .about-me-container {
   margin-top: 132px;
@@ -795,13 +791,25 @@ button:hover {
     margin-left: 154px;
     padding: 26px;
     font-size: 20px;
+    animation: logo;
+    animation-duration: 5s;
+  }
+
+  @keyframes logo {
+    0% {
+      margin-left: 100%;
+    }
+
+    100% {
+      margin-left: 154px;
+    }
   }
 
   .primary-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     gap: 50px;
     margin-right: 151px;
     padding: 26px;
@@ -841,7 +849,7 @@ button:hover {
   .greeting {
     width: 500px;
     height: 160px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 5rem;
@@ -852,7 +860,7 @@ button:hover {
   .introduction-text {
     width: 566px;
     height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500px;
     font-size: 32px;
@@ -865,7 +873,7 @@ button:hover {
   .description {
     width: 566px;
     height: 123px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 30px;
@@ -906,8 +914,27 @@ button:hover {
     height: 448px;
   }
 
+  .recent-work-button:hover {
+    transition: all ease-in;
+    transition-duration: 0.5s;
+    color: #f55800;
+    background-color: #fff;
+    border: 1px solid #f55800;
+    box-shadow: 5px 5px 5px 5px #212121;
+  }
+
   .desktop-orange-image {
     display: block;
+  }
+
+  .desktop {
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  .desktop:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px 2px lightslategray;
   }
 
   h4 {
@@ -932,6 +959,14 @@ button:hover {
 
   .project-button {
     width: 369px;
+    transition: all ease-in;
+    transition-duration: 0.5s;
+  }
+
+  .project-button:hover {
+    color: #f55800;
+    background-color: #fff;
+    border: 1px solid #f55800;
   }
 
   .stories-head {
@@ -959,7 +994,7 @@ button:hover {
   .about-h {
     width: 566px;
     height: 78px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 72px;
@@ -970,7 +1005,7 @@ button:hover {
   .p-description {
     width: 566px;
     height: 148px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 20px;
@@ -980,6 +1015,13 @@ button:hover {
 
   .resume-button {
     margin-bottom: 221px;
+    transition: all ease-in;
+    transition-duration: 0.5s;
+  }
+
+  .resume-button:hover {
+    color: #f55800;
+    background-color: #fff;
   }
 
   .vector-4 {
@@ -1041,6 +1083,15 @@ button:hover {
 
   .form-button {
     margin-left: 21px;
+  }
+
+  .form-button:hover {
+    transition: all ease-in;
+    transition-duration: 0.5s;
+    color: #f55800;
+    border: 1px solid #f55800;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px #212121;
   }
 
   .bottom-line {
