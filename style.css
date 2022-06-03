@@ -795,13 +795,25 @@ button:hover {
     margin-left: 154px;
     padding: 26px;
     font-size: 20px;
+    animation: logo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes logo {
+    from {
+      margin-left: 100%;
+    }
+
+    to {
+      margin-left: 154px;
+    }
   }
 
   .primary-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     gap: 50px;
     margin-right: 151px;
     padding: 26px;
@@ -841,7 +853,7 @@ button:hover {
   .greeting {
     width: 500px;
     height: 160px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 5rem;
@@ -852,7 +864,7 @@ button:hover {
   .introduction-text {
     width: 566px;
     height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500px;
     font-size: 32px;
@@ -865,7 +877,7 @@ button:hover {
   .description {
     width: 566px;
     height: 123px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 30px;
@@ -959,7 +971,7 @@ button:hover {
   .about-h {
     width: 566px;
     height: 78px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 72px;
@@ -970,7 +982,7 @@ button:hover {
   .p-description {
     width: 566px;
     height: 148px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 20px;
