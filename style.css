@@ -52,7 +52,7 @@ header {
   background: #1c1a19;
   background-image: url(images/illustration.png);
   background-repeat: no-repeat;
-  background-position: 100% 130%;
+  background-position: 100% 110%;
   padding: 0 1.2rem 6rem 1.2rem;
 }
 
@@ -285,6 +285,9 @@ h4 {
   background-repeat: no-repeat;
   background-position: 100% 90%;
   padding-left: 24px;
+  border-bottom: 1px solid #fff;
+  width: 80%;
+  margin: auto;
 }
 
 .support-text {
@@ -316,6 +319,7 @@ h4 {
   color: #fff;
   background: #ff6b00;
   border: none;
+  margin-bottom: 146px;
 }
 
 .vector-4 {
@@ -514,7 +518,7 @@ h4 {
     background: #1c1a19;
     background-image: url(images/illustration.png);
     background-repeat: no-repeat;
-    background-position: 100% 130%;
+    background-position: 100% 110%;
     padding: 0 1.2rem 6rem 1.2rem;
   }
 
@@ -1234,6 +1238,7 @@ h4 {
 }
 
 @media (min-width: 1080px) {
+
   /* headline section */
   body {
     width: 100%;
@@ -1251,7 +1256,6 @@ h4 {
   }
 
   .logo {
-    color: #f55800;
     margin-left: 154px;
     padding: 26px;
     font-size: 20px;
@@ -1267,6 +1271,10 @@ h4 {
     100% {
       margin-left: 154px;
     }
+  }
+
+  a:hover {
+    color: #f55800;
   }
 
   .primary-nav {
