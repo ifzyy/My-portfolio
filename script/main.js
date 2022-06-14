@@ -4,7 +4,7 @@ function collapse() {
   menuDiv.classList.toggle('expand');
 }
 
-const hamburgerBtn = document.querySelector("#hamburgerBtn");
+const hamburgerBtn = document.querySelector('#hamburgerBtn');
 const closeBtn = document.querySelector('#closeBtn');
 
 hamburgerBtn.addEventListener('click', collapse);
