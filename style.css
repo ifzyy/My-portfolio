@@ -48,6 +48,11 @@ header {
   margin-right: 15px;
 }
 
+.menu-navigation {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .headline {
   background: #1c1a19;
   background-image: url(images/illustration.png);
