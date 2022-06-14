@@ -38,6 +38,8 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: https://twitter.com/johnson32325986
 - LinkedIn: https://www.linkedin.com/in/johnson-emmanuel-907a79239/
 
+👤 **Author2**
+- Github: https://github.com/alanluqman
 
 ## 🤝 Contributing
 
