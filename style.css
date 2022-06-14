@@ -81,7 +81,7 @@ header {
   font-size: 35px;
   font-style: normal;
   font-weight: 700px;
-  font-family: 'inter', 'sans-serif';
+  font-family: 'inter', sans-serif;
   padding: 10px 0;
   border-bottom: 1px solid #6f6c6b;
 }
@@ -506,10 +506,6 @@ h4 {
 }
 
 @media (min-width: 375px) and (max-width: 550px) {
-  .menu-slider {
-    display: none;
-  }
-
   header {
     background-color: #3c3a39;
     display: flex;
@@ -1272,7 +1268,6 @@ h4 {
 }
 
 @media (min-width: 1080px) {
-
   /* headline section */
   body {
     width: 100%;
