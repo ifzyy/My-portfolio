@@ -28,16 +28,16 @@ const projects = [
     mobImage: 'images/Snapshoot-mobile.png',
     featureList: ['html', 'bootstrap', 'Ruby'],
     seeLive: 'https://ifzyy.github.io/My-portfolio/',
-    seeSource: 'https://github.com/ifzyy/My-portfolio',
+    seeSource: 'https://github.com/ifzyy/My-portfolio'
   }
 ];
 
 const popupWindow = document.querySelector('#extended');
 function popup() {
   popupWindow.classList.toggle('extended');
-  document.querySelector('#mobileh5').innerHTML = projects[0].title
+  document.querySelector('#mobileh5').innerHTML = projects[0].title;
   document.querySelector('.popup-text').innerHTML = projects[0].mobDescription;
-  document.querySelector('#mobimage').src = '' + projects[0].mobImage;
+  document.querySelector('#mobimage').src='' + projects[0].mobImage;
   document.querySelector('#seeMobLive').href = projects[0].seeLive;
   document.querySelector('#seeMobSource').href = projects[0].seeSource;
 }
@@ -75,7 +75,7 @@ function popupDesktop() {
   popupWindowDesktop.classList.toggle('expanded');
   document.querySelector('.desktop-h5').innerHTML = projects[0].title;
   document.querySelector('.popup-text-window').innerHTML = projects[0].description;
-  document.querySelector('#popupImageDesktop').src = '' + projects[0].image;
+  document.querySelector('#popupImageDesktop').src='' + projects[0].image;
   document.querySelector('#seeLive').href = projects[0].seeLive;
   document.querySelector('#seeSource').href = projects[0].seeSource;
 }
@@ -107,4 +107,3 @@ projectDesktopButton5.addEventListener('click', popupDesktop);
 
 const projectDesktopButton6 = document.querySelector('#seeproject6');
 projectDesktopButton6.addEventListener('click', popupDesktop);
-
