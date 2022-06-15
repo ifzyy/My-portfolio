@@ -158,6 +158,97 @@ a {
 }
 
 /* work-section */
+.popup-window {
+  display: none;
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.extended {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-window-desktop {
+  display: none;
+
+}
+
+.popup-holder {
+  background-color: #fff;
+  height: 94%;
+  width: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  margin-top: 20px;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+}
+
+h5 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.popup-boxes-container {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.popup-boxes {
+  color: black;
+  border: 1px solid #979493;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.popup-text {
+  width: 311px;
+  height: 220px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 24px;
+}
+
+.popup-button-container {
+  display: flex;
+  gap: 55px;
+}
+
+.popup-button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #ff6b00;
+  padding: 0.6rem 0.7rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 300px;
@@ -1005,6 +1096,7 @@ h4 {
   }
 
   /* work section */
+
   .first-project-container {
     display: grid;
     justify-content: center;
@@ -1126,6 +1218,89 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .popup-window-desktop {
+    display: none;
+  }
+
+  .extended {
+    display: none;
+  }
+
+  .expanded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-holder-desktop {
+    background-color: #fff;
+    height: 82%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    margin-top: 40px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .popup-header-desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-h5 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  #closepopup {
+    padding-right: 70px;
+  }
+
+  .popup-boxes-container-desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-left: 0;
+    margin-top: 0;
+  }
+
+  #tab {
+    display: none;
+  }
+
+  .popup-content-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .popup-content {
+    display: flex;
+    gap: 20px;
+  }
+
+  .popup-text-window {
+    width: 350px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #344563;
+  }
+
+  .popup-button-container-desktop {
+    display: flex;
+    gap: 24px;
   }
 }
 
@@ -1277,6 +1452,84 @@ h4 {
     justify-content: center;
     align-items: center;
   }
+
+  .popup-window-desktop {
+    display: none;
+  }
+
+  .extended {
+    display: none;
+  }
+
+  .expanded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-holder-desktop {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    margin-top: 30px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .popup-header-desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-h5 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  #closepopup {
+    padding-right: 70px;
+  }
+
+  .popup-boxes-container-desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-left: 0;
+    margin-top: 0;
+  }
+
+  .popup-content-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .popup-content {
+    display: flex;
+    gap: 20px;
+  }
+
+  .popup-text-window {
+    width: 320px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #344563;
+  }
+
+  .popup-button-container-desktop {
+    display: flex;
+    gap: 24px;
+  }
 }
 
 @media (min-width: 1080px) {
@@ -1395,6 +1648,86 @@ h4 {
   }
 
   /* work section */
+  .popup-window-desktop {
+    display: none;
+  }
+
+  .extended {
+    display: none;
+  }
+
+  .expanded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-holder-desktop {
+    background-color: #fff;
+    height: 80%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    margin-top: 40px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .popup-header-desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-h5 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  #closepopup {
+    padding-right: 70px;
+  }
+
+  .popup-boxes-container-desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-left: 0;
+    margin-top: 0;
+  }
+
+  .popup-content-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .popup-content {
+    display: flex;
+    gap: 20px;
+  }
+
+  .popup-text-window {
+    width: 424px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #344563;
+    margin-top: 24px;
+  }
+
+  .popup-button-container-desktop {
+    display: flex;
+    gap: 24px;
+  }
+
   .first-project-container {
     display: grid;
     justify-content: center;
