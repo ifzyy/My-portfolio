@@ -1740,6 +1740,11 @@ h4 {
     gap: 24px;
   }
 
+  .popup-button:hover {
+    border: 1px solid #f55800;
+    color: black;
+  }
+
   .first-project-container {
     display: grid;
     justify-content: center;
