@@ -1667,7 +1667,7 @@ h4 {
 
   .expanded {
     display: flex;
-    top: 0;
+    z-index: 10;
     justify-content: center;
     position: fixed;
     top: 0;
