@@ -19,8 +19,6 @@ menuItem2.addEventListener('click', collapse);
 const menuItem3 = document.querySelector('#contactMe');
 menuItem3.addEventListener('click', collapse);
 
-
-
 const projects = [
   {
     title: 'Multi Post Stories',
