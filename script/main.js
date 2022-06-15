@@ -37,7 +37,7 @@ function popup() {
   popupWindow.classList.toggle('extended');
   document.querySelector('#mobileh5').innerHTML = projects[0].title;
   document.querySelector('.popup-text').innerHTML = projects[0].mobDescription;
-  document.querySelector('#mobimage').src = '' + projects[0].mobImage;
+  document.querySelector('#mobimage').src = '' +projects[0].mobImage;
   document.querySelector('#seeMobLive').href = projects[0].seeLive;
   document.querySelector('#seeMobSource').href = projects[0].seeSource;
 }
