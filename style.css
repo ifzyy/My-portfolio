@@ -158,6 +158,7 @@ a {
 }
 
 /* work-section */
+
 .popup-window {
   display: none;
 }
@@ -170,7 +171,14 @@ a {
 
 .extended {
   display: flex;
+  top: 0;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
 }
 
 .popup-window-desktop {
@@ -1533,6 +1541,7 @@ h4 {
 }
 
 @media (min-width: 1080px) {
+
   /* headline section */
   body {
     width: 100%;
@@ -1658,8 +1667,14 @@ h4 {
 
   .expanded {
     display: flex;
+    top: 0;
     justify-content: center;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
   }
 
   .popup-holder-desktop {
