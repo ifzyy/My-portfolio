@@ -174,7 +174,6 @@ a {
   top: 0;
   justify-content: center;
   position: fixed;
-  top: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
@@ -183,7 +182,6 @@ a {
 
 .popup-window-desktop {
   display: none;
-
 }
 
 .popup-holder {
@@ -1541,7 +1539,6 @@ h4 {
 }
 
 @media (min-width: 1080px) {
-
   /* headline section */
   body {
     width: 100%;
