@@ -169,6 +169,10 @@ a {
   gap: 50px;
 }
 
+#closeButton {
+  padding-right: 30px;
+}
+
 .extended {
   display: flex;
   top: 0;
@@ -186,8 +190,8 @@ a {
 
 .popup-holder {
   background-color: #fff;
-  height: 94%;
-  width: 92%;
+  height: 90%;
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,6 +200,8 @@ a {
   z-index: 10;
   margin-top: 20px;
   overflow: auto;
+  padding-top: 30px;
+  padding-left: 10px;
 }
 
 .popup {
@@ -203,10 +209,17 @@ a {
   flex-direction: column;
 }
 
+#mobimage {
+  width: 327px;
+}
+
 h5 {
   font-size: 30px;
   margin: 10px 0;
   color: #091e42;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .popup-boxes-container {
@@ -233,7 +246,7 @@ h5 {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin-top: 24px;
+  margin-top: 0;
 }
 
 .popup-button-container {
@@ -364,7 +377,18 @@ h4 {
   display: flex;
   flex-direction: column;
   margin-top: 1.5rem;
+}
+
+.one {
   background-image: url(images/Mask-Group.png);
+}
+
+.two {
+  background-image: url(images/Img-Placeholder2.png);
+}
+
+.three {
+  background-image: url(images/Img-Placeholder3.png);
 }
 
 .stories-head {
@@ -625,6 +649,10 @@ h4 {
     width: 100%;
   }
 
+  .desktop-stories-head {
+    display: none;
+  }
+
   .logo {
     width: 77px;
     height: 24px;
@@ -831,7 +859,6 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-top: 1.5rem;
-    background-image: url(images/Mask-Group.png);
   }
 
   .stories-head {
@@ -1087,6 +1114,10 @@ h4 {
     margin-left: 45px;
   }
 
+  .desktop-stories-head {
+    display: none;
+  }
+
   .headline {
     background-image: url(images/Illustration.png);
     background-size: 200px;
@@ -1243,7 +1274,7 @@ h4 {
 
   .popup-holder-desktop {
     background-color: #fff;
-    height: 82%;
+    height: 85%;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -1314,6 +1345,10 @@ h4 {
 @media (min-width: 901px) and (max-width: 1080px) {
   .greeting {
     width: 800px;
+  }
+
+  .desktop-stories-head {
+    display: none;
   }
 
   .introduction-text {
@@ -1677,7 +1712,7 @@ h4 {
 
   .popup-holder-desktop {
     background-color: #fff;
-    height: 72%;
+    height: 85%;
     position: fixed;
     top: 0;
     z-index: 10;
