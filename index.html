@@ -32,7 +32,8 @@
                 </div>
                 <div class="menu-nav-item">
                     <ul class="menu-navigation">
-                        <li class="menu-item"><a id="seePortfolio" class="menu-links" href="#portfolio">Portfolio</a> </li>
+                        <li class="menu-item"><a id="seePortfolio" class="menu-links" href="#portfolio">Portfolio</a>
+                        </li>
                         <li class="menu-item"><a id="aboutMe" class="menu-links" href="#About">About</a> </li>
                         <li class="menu-item"><a id="contactMe" class="menu-links" href="#contact">contact</a> </li>
                     </ul>
@@ -68,8 +69,82 @@
 
         </section>
         <!-- Work section -->
+        <!-- popup window -->
+        <!-- mobile popup -->
+        <div class="popup-window" id="extended">
+            <div class="popup-holder">
+                <div class="popup">
+                    <div class="popup-header">
+                        <h5 id="mobileh5"></h5>
+                        <img src="images/X-button.svg" id="closeButton" alt="close">
+                    </div>
+                    <ul class="popup-boxes-container">
+                        <li class="popup-boxes">html</li>
+                        <li class="popup-boxes">CSS</li>
+                        <li class="popup-boxes">Javascript</li>
+                    </ul>
+                    <div class="popup-image ">
+                        <img id="mobimage" src="#" alt="post mobile">
+                    </div>
+                    <div class="popup-text">
+                    </div>
+                    <div class="popup-button-container">
+                        <a href="" id="seeMobLive">
+                            <div class="popup-button">See Live <img src="images/see-live.png" alt="see live"></div>
+                        </a>
+                        <a href="" id="seeMobSource">
+                            <div class="popup-button">See Source <img src="images/see-source.png" alt=" see live"></div>
+                        </a>
 
-        <div class="first-project-container" id="portfolio">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- mobile popup -->
+        <!-- desktop popup -->
+        <div class="popup-window-desktop" id="popupDesktop">
+            <div class="popup-holder-desktop">
+                <div class="popup-desktop">
+                    <div class="popup-header-desktop">
+                        <h5 class="desktop-h5"></h5>
+                        <img src="images/X-button.svg" id="closepopup" alt="close">
+                    </div>
+                    <ul class="popup-boxes-container-desktop">
+                        <li class="popup-boxes">html</li>
+                        <li class="popup-boxes">CSS</li>
+                        <li class="popup-boxes">Ruby on Rails</li>
+                    </ul>
+                    <div class="popup-content">
+                        <div class="popup-image">
+                            <img id="popupImageDesktop" src="#" alt="post">
+
+                        </div>
+                        <div class="popup-content-holder">
+                            <div class="popup-text-window">
+                            </div>
+
+                            <div class="popup-button-container-desktop">
+                                <a href="" id="seeLive" class="popup-button">See Live <img src="images/see-live.png"
+                                        alt="see live">
+                                </a>
+                                <a href="" id="seeSource" class="popup-button">See Source <img
+                                        src="images/see-source.png" alt=" see source">
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- desktop popup -->
+
+        <!-- popup window -->
+
+        <div class="first-project-container " id="portfolio">
             <div class="projects">
                 <h3 class="recent-text">My Recent Works
                     <img class="line" src="images/Vector.png" alt="line">
@@ -78,7 +153,7 @@
                     <div class="orange-image"><img src="images/Img-Placeholder.png" alt="orange image"></div>
                     <div class="desktop-orange-image"> <img src="images/orange-image.png" alt="orange image"> </div>
                     <div class="orange-container">
-                        <h4>Multi-Post Stories</h4>
+                        <h4 id="multi">Multi-Post Stories</h4>
                         <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups
                             required.
                             has been the industry's standard dummy text ever since the 1500s,
@@ -89,7 +164,7 @@
                             <li class="box"> CSS</li>
                             <li class="box"> Javascript</li>
                         </ul>
-                        <button class="recent-work-button" type="button">See project</button>
+                        <button class="recent-work-button" id="seeproject" type="button">See project</button>
                     </div>
                 </div>
 
@@ -98,7 +173,7 @@
 
         <div class="container">
             <div class="projects desktop">
-                <div class="stories-container">
+                <div class="stories-container one">
                     <h4 class="stories-head">Professional Art Printing Data</h4>
                     <p class="p-text">A daily selection of privately personalized reads;
                         no accounts or sign-ups required.
@@ -109,11 +184,11 @@
                         <li class="boxes">Javascript</li>
                     </ul>
                 </div>
-                <button type="button" class="project-button">See Project</button>
+                <button type="button" class="project-button" id="seeproject1">See Project</button>
             </div>
             <div class="projects desktop">
-                <div class="stories-container">
-                    <h4 class="stories-head">Professional Art Printing Data</h4>
+                <div class="stories-container two">
+                    <h4 class="stories-head">Data DashBoard HealthCare</h4>
                     <p class="p-text">A daily selection of privately personalized reads;
                         no accounts or sign-ups required.
                         has been the industry's standard</p>
@@ -123,11 +198,11 @@
                         <li class="boxes">Javascript</li>
                     </ul>
                 </div>
-                <button type="button" class="project-button">See Project</button>
+                <button type="button" class="project-button" id="seeproject2">See Project</button>
             </div>
             <div class="projects desktop">
-                <div class="stories-container">
-                    <h4 class="stories-head">Professional Art Printing Data</h4>
+                <div class="stories-container three">
+                    <h4 class="stories-head">Website Portfolio</h4>
                     <p class="p-text">A daily selection of privately personalized reads;
                         no accounts or sign-ups required.
                         has been the industry's standard</p>
@@ -139,10 +214,10 @@
 
 
                 </div>
-                <button type="button" class="project-button">See Project</button>
+                <button type="button" class="project-button" id="seeproject3">See Project</button>
             </div>
             <div class="projects desktop">
-                <div class="stories-container">
+                <div class="stories-container one">
                     <h4 class="stories-head">Professional Art Printing Data</h4>
                     <p class="p-text">A daily selection of privately personalized reads;
                         no accounts or sign-ups required.
@@ -153,11 +228,11 @@
                         <li class="boxes">Javascript</li>
                     </ul>
                 </div>
-                <button type="button" class="project-button">See Project</button>
+                <button type="button" class="project-button" id="seeproject4">See Project</button>
             </div>
             <div class="projects desktop">
-                <div class="stories-container">
-                    <h4 class="stories-head">Professional Art Printing Data</h4>
+                <div class="stories-container two">
+                    <h4 class="stories-head">Data DashBoard HealthCare</h4>
                     <p class="p-text">A daily selection of privately personalized reads;
                         no accounts or sign-ups required.
                         has been the industry's standard</p>
@@ -167,11 +242,11 @@
                         <li class="boxes">Javascript</li>
                     </ul>
                 </div>
-                <button type="button" class="project-button">See Project</button>
+                <button type="button" class="project-button" id="seeproject5">See Project</button>
             </div>
             <div class="projects desktop">
-                <div class="stories-container">
-                    <h4 class="stories-head">Professional Art Printing Data</h4>
+                <div class="stories-container three">
+                    <h4 class="stories-head">Website Portfolio</h4>
                     <p class="p-text">A daily selection of privately personalized reads;
                         no accounts or sign-ups required.
                         has been the industry's standard</p>
@@ -181,7 +256,7 @@
                         <li class="boxes">Javascript</li>
                     </ul>
                 </div>
-                <button type="button" class="project-button">See Project</button>
+                <button type="button" class="project-button" id="seeproject6">See Project</button>
             </div>
         </div>
 
