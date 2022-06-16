@@ -221,3 +221,11 @@ const isEmailValid = function validateEmail() {
   }
   return valid;
 };
+const form = document.querySelector('#form');
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+  let finalcheck = isEmailValid();
+  if (finalcheck) {
+    form.submit();
+  }
+});
