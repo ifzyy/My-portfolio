@@ -592,10 +592,6 @@ h4 {
   padding: 10px;
 }
 
-.li-container {
-  display: none;
-}
-
 .name {
   margin-top: 73px;
   width: 265px;
@@ -606,9 +602,19 @@ h4 {
 }
 
 .msg {
-  width: 295px;
-  height: 114px;
+  min-width: 295px;
+  min-height: 114px;
   background-color: #fbf8f7;
+}
+
+.error-message {
+  color: red;
+  font-size: 20px;
+}
+
+.contain-error {
+  display: flex;
+  flex-direction: column;
 }
 
 .form-button {
@@ -1956,7 +1962,7 @@ h4 {
   }
 
   .name {
-    display: none;
+    width: 660px;
   }
 
   .li-container {
@@ -1964,11 +1970,6 @@ h4 {
     flex-direction: row;
     margin-bottom: 0;
     gap: 30px;
-    list-style: none;
-  }
-
-  .form {
-    margin-top: 120px;
     list-style: none;
   }
 
