@@ -222,9 +222,9 @@ const isEmailValid = function validateEmail() {
   return valid;
 };
 const form = document.querySelector('#form');
-form.addEventListener('submit', function (e) {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
-  let finalcheck = isEmailValid();
+  const finalcheck = isEmailValid();
   if (finalcheck) {
     form.submit();
   }
