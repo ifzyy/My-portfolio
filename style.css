@@ -195,6 +195,7 @@ a {
   top: 0;
   z-index: 10;
   margin-top: 20px;
+  overflow: auto;
 }
 
 .popup {
@@ -205,6 +206,7 @@ a {
 h5 {
   font-size: 30px;
   margin: 10px 0;
+  color: #091e42;
 }
 
 .popup-boxes-container {
@@ -225,7 +227,6 @@ h5 {
 
 .popup-text {
   width: 311px;
-  height: 220px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1676,7 +1677,7 @@ h4 {
 
   .popup-holder-desktop {
     background-color: #fff;
-    height: 80%;
+    height: 72%;
     position: fixed;
     top: 0;
     z-index: 10;
