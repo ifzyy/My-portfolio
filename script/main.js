@@ -204,3 +204,28 @@ projectDesktopButton5.addEventListener('click', dynamicModalDesktop2);
 
 const projectDesktopButton6 = document.querySelector('#seeproject6');
 projectDesktopButton6.addEventListener('click', dynamicModalDesktop3);
+
+const emailElement = document.querySelector('#email');
+const emailValid = function checkEmail(email) {
+  const regexp = /^[a-z]+(([a-z]+\.?([0-9]+)?\.?))+([a-z0-9])@([a-z]+\.?)+[a-z]{2,}$/;
+  return regexp.test(email);
+};
+const isEmailValid = function validateEmail() {
+  let valid = false;
+  const email = emailElement.value.trim();
+  if (!emailValid(email)) {
+    document.querySelector('#error').innerHTML = '* Please enter a valid email.';
+  } else {
+    document.querySelector('#error').innerHTML = '';
+    valid = true;
+  }
+  return valid;
+};
+const form = document.querySelector('#form');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const finalcheck = isEmailValid();
+  if (finalcheck) {
+    form.submit();
+  }
+});
